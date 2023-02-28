@@ -5,6 +5,11 @@ if name == '': # Same as not name
     print("No Name is given!")
 if not name:  # Same as name == ''
     print("No Name is given!")
+
+# || Colouring & Styling Output || 
+from colorama import Fore, Back, Style
+print(f"{Style.BRIGHT} He{Fore.RED}llo {Back.BLUE}World")
+
 # || Binary & Decimal Conversation ||
 num = 100
 print(bin(num)[2: ]) # Gives the Binay representation
