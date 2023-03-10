@@ -12,7 +12,7 @@ print(f"{Style.BRIGHT} He{Fore.RED}llo {Back.BLUE}World")
 
 # || Binary & Decimal Conversation ||
 num = 100
-print(bin(num)[2: ]) # Gives the Binay representation
+print(bin(num)[2: ]) # Gives the Binary representation
 print(int(str(num), 2)) # Gives the Decimal representation
 print(chr(num)) # Gives the ASCII character of that number
 print(ord("z")) # Gives the Unicode for one-character string
